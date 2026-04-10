@@ -61,8 +61,9 @@ class: text-left
 </div>
 
 ---
-layout: default
+layout: image-right
 layoutClass: gap-14
+image: /assets/kid.jpg
 ---
 
 <h1 class="!text-white !text-4xl !font-bold !tracking-tight">Who am I?</h1>
