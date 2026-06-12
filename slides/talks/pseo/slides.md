@@ -464,6 +464,6 @@ class: text-center
 
 ---
 layout: image
-image: /assets/team.png
+image: /assets/team.jpeg
 backgroundSize: contain
 ---
