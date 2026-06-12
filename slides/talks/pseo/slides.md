@@ -132,12 +132,6 @@ Signups and subscriptions are attributed to the first page they landed on inside
 -->
 
 
----
-layout: image
-image: /assets/signups-by-source.png
-backgroundSize: contain
----
-
 
 ---
 layout: image
@@ -453,3 +447,16 @@ layout: default
     </div>
   </div>
 </div>
+
+
+
+---
+layout: center
+class: text-center
+---
+
+<div>
+  <h1 class="!text-6xl !font-bold !tracking-tight text-white">Questions?</h1>
+  <div class="w-16 h-px bg-[#333] mx-auto mt-8" />
+</div>
+
