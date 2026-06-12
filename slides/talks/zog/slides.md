@@ -1,6 +1,6 @@
 ---
-title: Zog
-subtitle: Zod-Like schema validation library for Go
+title: "Zog: Zog-like schema validation library for Golang"
+subtitle: Origin story, API design and balancing performance with DX
 theme: default
 highlighter: shiki
 transition: slide-left
