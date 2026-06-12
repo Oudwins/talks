@@ -460,3 +460,10 @@ class: text-center
   <div class="w-16 h-px bg-[#333] mx-auto mt-8" />
 </div>
 
+
+
+---
+layout: image
+image: /assets/team.png
+backgroundSize: contain
+---
