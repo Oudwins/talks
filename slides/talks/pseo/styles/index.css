@@ -125,3 +125,218 @@
   fill: #444 !important;
   stroke: #444 !important;
 }
+
+/* ——— PSEO deck primitives ——— */
+.slidev-layout:has(.pseo-shell) {
+  position: relative !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+.slidev-layout:has(.pseo-shell) > div {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.pseo-shell {
+  position: absolute;
+  inset: 0;
+  width: auto;
+  height: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(255, 255, 255, 0.08), transparent 30%),
+    radial-gradient(circle at 82% 72%, rgba(255, 255, 255, 0.045), transparent 26%),
+    #000;
+}
+
+.pseo-shell::before {
+  content: "";
+  position: absolute;
+  inset: 88px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  pointer-events: none;
+}
+
+.pseo-shell::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(circle at 50% 45%, black, transparent 72%);
+  pointer-events: none;
+}
+
+.pseo-content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.pseo-kicker {
+  color: #777;
+  font-size: 0.75rem;
+  letter-spacing: 0.35em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.pseo-title {
+  color: #fff !important;
+  font-size: 3.75rem !important;
+  font-weight: 750 !important;
+  letter-spacing: -0.045em !important;
+  line-height: 0.95 !important;
+}
+
+.pseo-subtitle {
+  color: #a1a1a1;
+  font-size: 1.75rem;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+}
+
+.pseo-rule {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.32), transparent);
+}
+
+.pseo-terms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pseo-term {
+  background: rgba(7, 7, 7, 0.94);
+  padding: 2.25rem;
+}
+
+.pseo-term-label {
+  color: #fff;
+  font-size: 2.75rem;
+  font-weight: 740;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+.pseo-term-copy {
+  color: #a1a1a1;
+  font-size: 1.45rem;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  margin-top: 1.5rem;
+}
+
+.pseo-process {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr 1fr 1.05fr;
+  gap: 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 26px 80px rgba(0, 0, 0, 0.55);
+}
+
+.pseo-step {
+  position: relative;
+  min-height: 250px;
+  padding: 1.7rem;
+  background: rgba(8, 8, 8, 0.96);
+}
+
+.pseo-step:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pseo-step::after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  width: 9px;
+  height: 9px;
+  background: #fff;
+  border-radius: 999px;
+  transform: translateY(-50%);
+  box-shadow: 0 0 26px rgba(255, 255, 255, 0.75);
+  z-index: 2;
+}
+
+.pseo-step:last-child::after {
+  display: none;
+}
+
+.pseo-step-index {
+  color: #777;
+  font-size: 0.75rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+}
+
+.pseo-step-title {
+  color: #fff !important;
+  font-size: 1.75rem !important;
+  font-weight: 730 !important;
+  letter-spacing: -0.04em !important;
+  line-height: 1.02 !important;
+  margin-top: 3rem !important;
+}
+
+.pseo-step-meta {
+  color: #777;
+  font-size: 0.98rem;
+  line-height: 1.25;
+  margin-top: 1.1rem;
+}
+
+.pseo-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.pseo-chip {
+  color: #d4d4d4;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace !important;
+  font-size: 0.74rem;
+  letter-spacing: -0.02em;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  background: rgba(255, 255, 255, 0.045);
+  border-radius: 999px;
+  padding: 0.34rem 0.55rem;
+}
+
+.pseo-command {
+  color: #d4d4d4;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace !important;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  margin-top: 1.25rem;
+  padding: 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.pseo-stat {
+  color: #fff;
+  font-size: 5.5rem;
+  font-weight: 780;
+  letter-spacing: -0.07em;
+  line-height: 0.9;
+}
+
+.pseo-stat-label {
+  color: #777;
+  font-size: 1rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}

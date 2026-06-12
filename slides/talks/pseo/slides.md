@@ -9,6 +9,8 @@ class: text-center
 drawings:
   persist: false
 transition: slide-left
+canvasWidth: 1920
+aspectRatio: '16/9'
 comark: true
 duration: 35min
 highlighter: shiki
@@ -99,29 +101,33 @@ layoutClass: gap-14
 
 
 ---
-layout: center
+layout: default
 ---
 
-<div class="px-16">
-  <p class="text-[#777] text-sm tracking-[0.35em] uppercase mb-10">Shared language</p>
-  <div class="space-y-12">
-    <div>
-      <h1 class="!text-white !text-5xl !font-bold !tracking-tight">Clicks</h1>
-      <p class="mt-4 text-2xl text-[#a1a1a1] leading-tight max-w-3xl">
-        Search engines sending people into our site.
-      </p>
-    </div>
-    <div>
-      <h1 class="!text-white !text-5xl !font-bold !tracking-tight">Attribution</h1>
-      <p class="mt-4 text-2xl text-[#a1a1a1] leading-tight max-w-3xl">
-        First page visited on our site.
-      </p>
+<div class="h-full px-16">
+  <div class="pseo-shell -m-20 p-20">
+    <div class="pseo-content flex flex-col justify-center px-10">
+      <p class="pseo-kicker mb-10">Shared language</p>
+      <div class="pseo-terms">
+        <div class="pseo-term">
+          <p class="pseo-term-label">Clicks</p>
+          <p class="pseo-term-copy">
+        Search engines sending users to our site.
+          </p>
+        </div>
+        <div class="pseo-term">
+          <p class="pseo-term-label">Attribution</p>
+          <p class="pseo-term-copy">
+        First page a user visits on our site.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
 <!--
-Clicks are mainly Google and AI.
+Clicks are mainly from Google and AI surfaces.
 Signups and subscriptions are attributed to the first page they landed on inside the conversion window.
 -->
 
@@ -141,6 +147,20 @@ backgroundSize: contain
 
 
 ---
+layout: default
+---
+
+<div class="h-full px-16 text-center">
+  <div class="pseo-shell">
+    <div class="pseo-content h-full flex flex-col items-center justify-center">
+      <p class="pseo-kicker mb-8">Part 2</p>
+      <h1 class="pseo-title">Oceans</h1>
+    </div>
+  </div>
+</div>
+
+
+---
 layout: image
 image: /assets/elevenlabs-semantic-oceans-pseo.png
 backgroundSize: contain
@@ -155,16 +175,22 @@ backgroundSize: contain
 
 
 ---
-layout: center
+layout: default
 ---
 
-<div class="px-16 text-center">
-  <h1 class="!text-white !text-5xl !font-bold !tracking-tight max-w-4xl mx-auto leading-tight">
-    But how effective is this really?
-  </h1>
-  <p class="mt-8 text-3xl text-[#a1a1a1]">
-    Aren't the main keywords the most important?
-  </p>
+<div class="h-full px-16 text-center">
+  <div class="pseo-shell -m-20 p-20">
+    <div class="pseo-content h-full flex flex-col items-center justify-center">
+      <div class="pseo-rule w-72 mb-10" />
+      <h1 class="pseo-title max-w-4xl mx-auto">
+        But how effective is this really?
+      </h1>
+      <p class="pseo-subtitle mt-8 max-w-3xl mx-auto">
+        Are the main keywords still what matter most?
+      </p>
+      <div class="pseo-rule w-72 mt-10" />
+    </div>
+  </div>
 </div>
 
 
@@ -180,3 +206,178 @@ layout: image
 image: /assets/pseo-mental-model.jpg
 backgroundSize: contain
 ---
+
+
+---
+layout: default
+---
+
+<div class="h-full px-16 text-center">
+  <div class="pseo-shell -m-20 p-20">
+    <div class="pseo-content h-full flex flex-col items-center justify-center">
+      <p class="pseo-kicker mb-8">Part 1</p>
+      <h1 class="pseo-title">Finding opportunities</h1>
+    </div>
+  </div>
+</div>
+
+
+---
+layout: default
+---
+
+<div class="pseo-shell -m-20 p-20">
+  <div class="pseo-content h-full flex flex-col justify-center px-8">
+    <div class="flex items-end justify-between mb-10">
+      <div>
+        <p class="pseo-kicker mb-4">Opportunity engine</p>
+        <h1 class="!text-white !text-5xl !font-bold !tracking-[-0.05em] !leading-none">From search behavior to pages</h1>
+      </div>
+      <div class="text-right">
+        <p class="pseo-stat">10M</p>
+        <p class="pseo-stat-label mt-2">SFX searches</p>
+      </div>
+    </div>
+    <div class="pseo-process">
+      <div class="pseo-step">
+        <p class="pseo-step-index">01 / input</p>
+        <h2 class="pseo-step-title">Clean internal searches</h2>
+        <p class="pseo-step-meta">Deduplicate, normalize, remove noise.</p>
+      </div>
+      <div class="pseo-step">
+        <p class="pseo-step-index">02 / context</p>
+        <h2 class="pseo-step-title">Enrich</h2>
+        <div class="pseo-chip-row">
+          <span class="pseo-chip">language</span>
+          <span class="pseo-chip">safety</span>
+          <span class="pseo-chip">intent</span>
+        </div>
+      </div>
+      <div class="pseo-step">
+        <p class="pseo-step-index">03 / shape</p>
+        <h2 class="pseo-step-title">Cluster</h2>
+        <p class="pseo-step-meta">Group searches into semantic demand.</p>
+      </div>
+      <div class="pseo-step">
+        <p class="pseo-step-index">04 / output</p>
+        <h2 class="pseo-step-title">Fill gaps</h2>
+        <div class="pseo-command">$ create-page --from-cluster</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+For SFX, last time I looked we had around 10M internal searches.
+Enrichment includes language detection, safety, and similar classification.
+Then we identify gaps in existing pages and output commands to create new pages.
+-->
+
+
+---
+layout: default
+---
+
+<div class="h-full px-16 text-center">
+  <div class="pseo-shell -m-20 p-20">
+    <div class="pseo-content h-full flex flex-col items-center justify-center">
+      <p class="pseo-kicker mb-8">The ask</p>
+      <h1 class="pseo-title max-w-4xl mx-auto">Add search to every product</h1>
+      <p class="pseo-subtitle mt-8">It powers the loop.</p>
+    </div>
+  </div>
+</div>
+
+<!--
+This is how we learn what users actually want.
+-->
+
+
+---
+layout: default
+---
+
+<div class="h-full px-16 text-center">
+  <div class="pseo-shell -m-20 p-20">
+    <div class="pseo-content h-full flex flex-col items-center justify-center">
+      <p class="pseo-kicker mb-8">Part 3</p>
+      <h1 class="pseo-title">Page creation</h1>
+      <p class="pseo-subtitle mt-8 max-w-3xl mx-auto">
+        At this scale, page creation has to be AI-assisted.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+---
+layout: image
+image: /assets/sound-effects-v0-p1.png
+backgroundSize: contain
+---
+
+
+---
+layout: image
+image: /assets/sound-effects-v0-p2.jpeg
+backgroundSize: contain
+---
+
+<!--
+AI-generated images, even with a consistent style, looked awful.
+-->
+
+
+---
+layout: image
+image: /assets/sound-effects-v1-p1.png
+backgroundSize: contain
+---
+
+
+---
+layout: image
+image: /assets/sound-effects-v1-p2.jpeg
+backgroundSize: contain
+---
+
+<!--
+We moved to a more on-brand flat black-and-white style, removed the black background, centered the subject, and placed it on random colorful backgrounds.
+The extra trick was generating a single subject first so the image stayed clean instead of visually busy.
+-->
+
+
+---
+layout: default
+---
+
+<div class="h-full px-16 text-center">
+  <div class="pseo-shell -m-20 p-20">
+    <div class="pseo-content h-full flex flex-col items-center justify-center">
+      <p class="pseo-kicker mb-8">Part 4</p>
+      <h1 class="pseo-title">CRO</h1>
+      <p class="pseo-subtitle mt-8 max-w-3xl mx-auto">
+        These pages send users into the app.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+---
+layout: image
+image: /assets/sound-effects-v2-p1.png
+backgroundSize: contain
+---
+
+
+---
+layout: image
+image: /assets/sound-effects-v2-p2.png
+backgroundSize: contain
+---
+
+<!--
+Please help us keep these conversion flows working when you make changes.
+For v2, we improved the design and AB tested it.
+-->
