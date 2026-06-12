@@ -18,15 +18,15 @@ mdc: true
 ---
 
 <div class="h-full flex flex-col items-center justify-center px-16">
-  <div class="mb-10 flex items-center gap-2 text-[#888] text-sm tracking-wide uppercase">
-    <div class="w-5 h-px bg-[#333]" />
+  <div class="mb-10 flex items-center gap-3 text-[#b8b8b8] text-sm tracking-wide uppercase">
+    <div class="w-8 h-px bg-[#666]" />
     <span></span>
-    <div class="w-5 h-px bg-[#333]" />
+    <div class="w-8 h-px bg-[#666]" />
   </div>
   <h1 class="!text-[56px] !leading-[1.1] !font-bold text-white max-w-4xl tracking-tight">
     How we send 2M+ users/month to ElevenLabs with code
   </h1>
-  <p class="mt-6 text-lg text-[#888] max-w-2xl leading-relaxed">
+  <p class="mt-7 text-xl font-medium text-[#b8b8b8] max-w-3xl leading-relaxed">
 Building systems that identify opportunities across millions of data points. Generating high-quality AI content at scale without human review. Optimizing thousands of pages at once to drive sign-ups.
   </p>
 </div>
@@ -234,8 +234,8 @@ layout: default
         <h1 class="!text-white !text-5xl !font-bold !tracking-[-0.05em] !leading-none">From search behavior to pages</h1>
       </div>
       <div class="text-right">
-        <p class="pseo-stat">10M</p>
-        <p class="pseo-stat-label mt-2">SFX searches</p>
+        <p class="pseo-stat">10M+</p>
+        <p class="pseo-stat-label mt-12">searches</p>
       </div>
     </div>
     <div class="pseo-process">
@@ -352,6 +352,42 @@ layout: default
 ---
 
 <div class="h-full px-16 text-center">
+  <div class="pseo-shell">
+    <div class="pseo-content h-full flex flex-col items-center justify-center px-36">
+      <p class="pseo-kicker mb-8">Image generation</p>
+      <h1 class="pseo-title max-w-5xl mx-auto">Make the model design inside constraints</h1>
+      <div class="pseo-process mt-16 w-full text-left">
+        <div class="pseo-step">
+          <p class="pseo-step-index">01</p>
+          <h2 class="pseo-step-title">Single subject</h2>
+          <p class="pseo-step-meta">Keep the composition clean before styling.</p>
+        </div>
+        <div class="pseo-step">
+          <p class="pseo-step-index">02</p>
+          <h2 class="pseo-step-title">Flat BW style</h2>
+          <p class="pseo-step-meta">Generate consistent, on-brand artwork.</p>
+        </div>
+        <div class="pseo-step">
+          <p class="pseo-step-index">03</p>
+          <h2 class="pseo-step-title">Remove background</h2>
+          <p class="pseo-step-meta">Extract the subject from the black canvas.</p>
+        </div>
+        <div class="pseo-step">
+          <p class="pseo-step-index">04</p>
+          <h2 class="pseo-step-title">Add color</h2>
+          <p class="pseo-step-meta">Center it on a random colorful background.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+---
+layout: default
+---
+
+<div class="h-full px-16 text-center">
   <div class="pseo-shell -m-20 p-20">
     <div class="pseo-content h-full flex flex-col items-center justify-center">
       <p class="pseo-kicker mb-8">Part 4</p>
@@ -381,3 +417,39 @@ backgroundSize: contain
 Please help us keep these conversion flows working when you make changes.
 For v2, we improved the design and AB tested it.
 -->
+
+
+---
+layout: default
+---
+
+<div class="h-full px-16 text-center">
+  <div class="pseo-shell">
+    <div class="pseo-content h-full flex flex-col items-center justify-center px-36">
+      <p class="pseo-kicker mb-8">CRO / The bridge</p>
+      <h1 class="pseo-title max-w-5xl mx-auto">Anonymous value, then app depth</h1>
+      <div class="pseo-process mt-16 w-full text-left">
+        <div class="pseo-step">
+          <p class="pseo-step-index">01</p>
+          <h2 class="pseo-step-title">Generate</h2>
+          <p class="pseo-step-meta">Let users try the model immediately.</p>
+        </div>
+        <div class="pseo-step">
+          <p class="pseo-step-index">02</p>
+          <h2 class="pseo-step-title">Create value</h2>
+          <p class="pseo-step-meta">Example: generate a music track.</p>
+        </div>
+        <div class="pseo-step">
+          <p class="pseo-step-index">03</p>
+          <h2 class="pseo-step-title">Gate depth</h2>
+          <p class="pseo-step-meta">Download or edit further after signup.</p>
+        </div>
+        <div class="pseo-step">
+          <p class="pseo-step-index">04</p>
+          <h2 class="pseo-step-title">Protect flows</h2>
+          <p class="pseo-step-meta">They convert users and make money.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -180,7 +180,7 @@
 }
 
 .pseo-kicker {
-  color: #777;
+  color: #9a9a9a;
   font-size: 0.75rem;
   letter-spacing: 0.35em;
   line-height: 1;
@@ -196,7 +196,7 @@
 }
 
 .pseo-subtitle {
-  color: #a1a1a1;
+  color: #b8b8b8;
   font-size: 1.75rem;
   letter-spacing: -0.025em;
   line-height: 1.15;
@@ -332,11 +332,13 @@
   font-weight: 780;
   letter-spacing: -0.07em;
   line-height: 0.9;
+  margin: 0 !important;
 }
 
 .pseo-stat-label {
   color: #777;
   font-size: 1rem;
   letter-spacing: 0.18em;
+  margin: 3rem 0 0 !important;
   text-transform: uppercase;
 }
