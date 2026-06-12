@@ -98,3 +98,85 @@ layoutClass: gap-14
 
 
 
+---
+layout: center
+---
+
+<div class="px-16">
+  <p class="text-[#777] text-sm tracking-[0.35em] uppercase mb-10">Shared language</p>
+  <div class="space-y-12">
+    <div>
+      <h1 class="!text-white !text-5xl !font-bold !tracking-tight">Clicks</h1>
+      <p class="mt-4 text-2xl text-[#a1a1a1] leading-tight max-w-3xl">
+        Search engines sending people into our site.
+      </p>
+    </div>
+    <div>
+      <h1 class="!text-white !text-5xl !font-bold !tracking-tight">Attribution</h1>
+      <p class="mt-4 text-2xl text-[#a1a1a1] leading-tight max-w-3xl">
+        First page visited on our site.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!--
+Clicks are mainly Google and AI.
+Signups and subscriptions are attributed to the first page they landed on inside the conversion window.
+-->
+
+
+---
+layout: image
+image: /assets/signups-by-source.png
+backgroundSize: contain
+---
+
+
+---
+layout: image
+image: /assets/signups-by-source-pie.png
+backgroundSize: contain
+---
+
+
+---
+layout: image
+image: /assets/elevenlabs-semantic-oceans-pseo.png
+backgroundSize: contain
+---
+
+
+---
+layout: image
+image: /assets/ocean-fishing-pattern-pseo.png
+backgroundSize: contain
+---
+
+
+---
+layout: center
+---
+
+<div class="px-16 text-center">
+  <h1 class="!text-white !text-5xl !font-bold !tracking-tight max-w-4xl mx-auto leading-tight">
+    But how effective is this really?
+  </h1>
+  <p class="mt-8 text-3xl text-[#a1a1a1]">
+    Aren't the main keywords the most important?
+  </p>
+</div>
+
+
+---
+layout: image
+image: /assets/google-nonbranded-clicks-by-page-type.png
+backgroundSize: contain
+---
+
+
+---
+layout: image
+image: /assets/pseo-mental-model.jpg
+backgroundSize: contain
+---
