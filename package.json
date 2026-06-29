@@ -21,5 +21,12 @@
   "license": "MIT",
   "devDependencies": {
     "playwright-chromium": "^1.56.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "playwright-chromium",
+      "vue-demi"
+    ]
   }
 }
