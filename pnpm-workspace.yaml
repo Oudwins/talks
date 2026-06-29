@@ -10,5 +10,7 @@ catalog:
 
 onlyBuiltDependencies:
   - esbuild
+
+ignoredBuiltDependencies:
   - playwright-chromium
   - vue-demi
