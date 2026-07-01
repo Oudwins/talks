@@ -7,3 +7,10 @@ catalog:
   "@slidev/theme-default": latest
   "@slidev/theme-seriph": latest
   slidev-theme-dracula: ^0.2.0
+
+onlyBuiltDependencies:
+  - esbuild
+
+ignoredBuiltDependencies:
+  - playwright-chromium
+  - vue-demi
