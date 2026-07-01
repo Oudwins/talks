@@ -39,7 +39,7 @@ Hey from comment
 ---
 layout: image-right
 layoutClass: gap-14
-image: /assets/kid.jpg
+image: ./assets/kid.jpg
 ---
 
 <h1 class="!text-white !text-4xl !font-bold !tracking-tight">Who am I?</h1>
@@ -79,7 +79,7 @@ Say only
 
 ---
 layout: image-right
-image: /assets/loot.jpeg
+image: ./assets/loot.jpeg
 class: bg-top
 layoutClass: gap-14
 ---
@@ -135,7 +135,7 @@ Signups and subscriptions are attributed to the first page they landed on inside
 
 ---
 layout: image
-image: /assets/signups-by-source-pie.png
+image: ./assets/signups-by-source-pie.png
 backgroundSize: contain
 ---
 
@@ -156,14 +156,14 @@ layout: default
 
 ---
 layout: image
-image: /assets/elevenlabs-semantic-oceans-pseo.png
+image: ./assets/elevenlabs-semantic-oceans-pseo.png
 backgroundSize: contain
 ---
 
 
 ---
 layout: image
-image: /assets/ocean-fishing-pattern-pseo.png
+image: ./assets/ocean-fishing-pattern-pseo.png
 backgroundSize: contain
 ---
 
@@ -190,14 +190,14 @@ layout: default
 
 ---
 layout: image
-image: /assets/google-nonbranded-clicks-by-page-type.png
+image: ./assets/google-nonbranded-clicks-by-page-type.png
 backgroundSize: contain
 ---
 
 
 ---
 layout: image
-image: /assets/pseo-mental-model.jpg
+image: ./assets/pseo-mental-model.jpg
 backgroundSize: contain
 ---
 
@@ -306,14 +306,14 @@ layout: default
 
 ---
 layout: image
-image: /assets/sound-effects-v0-p1.png
+image: ./assets/sound-effects-v0-p1.png
 backgroundSize: contain
 ---
 
 
 ---
 layout: image
-image: /assets/sound-effects-v0-p2.jpeg
+image: ./assets/sound-effects-v0-p2.jpeg
 backgroundSize: contain
 ---
 
@@ -324,14 +324,14 @@ AI-generated images, even with a consistent style, looked awful.
 
 ---
 layout: image
-image: /assets/sound-effects-v1-p1.png
+image: ./assets/sound-effects-v1-p1.png
 backgroundSize: contain
 ---
 
 
 ---
 layout: image
-image: /assets/sound-effects-v1-p2.jpeg
+image: ./assets/sound-effects-v1-p2.jpeg
 backgroundSize: contain
 ---
 
@@ -396,14 +396,14 @@ layout: default
 
 ---
 layout: image
-image: /assets/sound-effects-v2-p1.png
+image: ./assets/sound-effects-v2-p1.png
 backgroundSize: contain
 ---
 
 
 ---
 layout: image
-image: /assets/sound-effects-v2-p2.png
+image: ./assets/sound-effects-v2-p2.png
 backgroundSize: contain
 ---
 
@@ -464,6 +464,6 @@ class: text-center
 
 ---
 layout: image
-image: /assets/team.jpeg
+image: ./assets/team.jpeg
 backgroundSize: contain
 ---

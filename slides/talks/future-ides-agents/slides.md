@@ -63,7 +63,7 @@ class: text-left
 ---
 layout: image-right
 layoutClass: gap-14
-image: /assets/kid.jpg
+image: ./assets/kid.jpg
 ---
 
 <h1 class="!text-white !text-4xl !font-bold !tracking-tight">Who am I?</h1>
@@ -103,7 +103,7 @@ Say only
 
 ---
 layout: image-right
-image: /assets/loot.jpeg
+image: ./assets/loot.jpeg
 class: bg-top
 layoutClass: gap-14
 ---
@@ -192,7 +192,7 @@ class: "!flex !flex-col !overflow-hidden"
 
 <p class="!flex-shrink-0 text-[#888] mt-2">New Opus & GPT models. So I started using Cursor's background agents. With and without worktrees.</p>
 
-<ImageContainer src="/assets/cursor-2.png" alt="Cursor agent interface" />
+<ImageContainer src="./assets/cursor-2.png" alt="Cursor agent interface" />
 
 
 
@@ -206,7 +206,7 @@ class: "!flex !flex-col !overflow-hidden"
 ---
 layout: image
 class: text-left
-image: /assets/isolation.png
+image: ./assets/isolation.png
 backgroundSize: contain
 ---
 
@@ -221,7 +221,7 @@ layout: center
 
 <p class="text-[#888] mt-2">I found myself with 4 Cursor instances open, juggling between them.</p>
 
-<ImageContainer src="/assets/4-cursors.png" alt="Cursor agent interface" />
+<ImageContainer src="./assets/4-cursors.png" alt="Cursor agent interface" />
 
 
 <!--
@@ -243,14 +243,14 @@ layout: center
 
 ---
 layout: image
-image: /assets/cloud-agents/1st.png
+image: ./assets/cloud-agents/1st.png
 backgroundSize: contain
 ---
 
 
 ---
 layout: image
-image: /assets/cloud-agents/2nd.png
+image: ./assets/cloud-agents/2nd.png
 backgroundSize: contain
 ---
 
@@ -385,7 +385,7 @@ Now we just have to run this in parallel as much as possible. That means doing a
 
 ---
 layout: image
-image: /assets/threads-of-work.png
+image: ./assets/threads-of-work.png
 ---
 
 
@@ -662,6 +662,5 @@ class: text-center
 <div class="max-w-2xl mx-auto">
   <h1 class="!text-5xl !font-bold !tracking-tight text-white">Port isolation</h1>
 </div>
-
 
 
